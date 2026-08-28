@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 .pytest_cache/
 logs/
@@ -8,3 +8,7 @@ reports/
 .vscode/
 venv/
 .venv/
+
+# 调试残留（本地排查用，不纳入版本库）
+.ci-artifacts/
+debug_repro*.py
