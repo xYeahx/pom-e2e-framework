@@ -1,0 +1,6 @@
+﻿# 商品测试数据（FR-18：与脚本分离，支持参数化）
+product: "Sauce Labs Backpack"
+filter_option: "Price (low to high)"
+keywords:
+  - "Sauce Labs Backpack"
+  - "Sauce Labs Bike Light"

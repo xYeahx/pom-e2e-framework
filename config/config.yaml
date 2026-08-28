@@ -1,0 +1,28 @@
+﻿# 全局配置文件（FR-17：浏览器、超时、URL、目录等集中管理）
+
+browser:
+  name: chrome              # chrome / edge / firefox
+  headless: false           # 是否无头模式运行（CI 建议 true）
+  window_size: "1920,1080"
+
+timeout:
+  implicit_wait: 5          # 隐式等待秒数
+  short: 5                  # 短等待
+  normal: 10                # 常规显性等待
+  long: 30                  # 长等待（异步加载）
+  poll_frequency: 0.5       # 轮询间隔秒数
+
+url:
+  base: "https://www.saucedemo.com"   # 演示电商站点，可替换为目标站点
+
+directories:
+  logs: "logs"
+  screenshots: "screenshots"
+  reports: "reports"
+
+retry:
+  attempts: 2               # 不稳定操作的默认重试次数
+  interval: 1               # 重试间隔秒数
+
+# 弹窗处理配置（FR-13）：按需配置要自动关闭的弹窗，格式：[{close: [By.ID, "accept-cookies"]}]
+popups: []

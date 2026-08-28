@@ -1,0 +1,17 @@
+﻿# 测试账号数据（FR-18：与脚本分离）
+standard_user:
+  username: standard_user
+  password: secret_sauce
+  first_name: Test
+  last_name: User
+  postal_code: "200000"
+
+# 被锁定账号：用于登录负向用例
+locked_out_user:
+  username: locked_out_user
+  password: secret_sauce
+
+# 错误密码：用于登录负向用例
+invalid_credentials:
+  username: standard_user
+  password: "wrong_password"

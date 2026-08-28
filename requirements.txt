@@ -1,0 +1,7 @@
+﻿# Web UI 自动化测试框架依赖清单
+selenium>=4.20.0
+webdriver-manager>=4.0.1
+pytest>=8.0.0
+pytest-html>=4.1.0
+PyYAML>=6.0.0
+# allure-pytest>=2.13.5   # 可选：Allure 报告
